@@ -34,138 +34,21 @@
                 </a>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-9 mx-auto">
-                <div class="code-window">
-                    <div class="dots">
-                        <div class="red"></div>
-                        <div class="orange"></div>
-                        <div class="green"></div>
-                    </div>
-                    <pre class="language-javascript line-numbers"><code class="language-javascript">import {DomSanitizer} from '@angular/platform-browser';
-import {Pipe, PipeTransform} from '@angular/core';
-
-import { icons } from 'feather-icons'; // v4+
-
-@Pipe({ name: 'feather' })
-export class FeatherIconsPipe implements PipeTransform {
-
-  constructor(private sanitizer: DomSanitizer) {}
-
-  transform(icon: string, size: number = 24, color: string = 'inherit') {
-    return this.sanitizer.bypassSecurityTrustHtml(icons[icon].toSvg({
-      width: size,
-      height: size,
-      color: color
-    }));
-  }
-}</code></pre>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Features Section-->
-<section class="py-6">
-    <div class="container">
+        <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2 class="text-center text-md-left">Reasons Why People Love <span class="text-success">Prism.js</span></h2>
-                <div class="row feature-grid">
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="check-circle" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Dead Simple
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="command" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Highly Intuitive
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="feather" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Light as a Feather
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="zap" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Blazing Fast
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="git-pull-request" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Extensible
-                            </div>
-                        </div>
-                    </div><div class="col-sm-6">
-                        <div class="media">
-                            <div class="icon-box">
-                                <div class="icon-box-inner">
-                                    <span data-feather="droplet" width="28" height="28"></span>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                Easy Styling
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Used By Section-->
-<section class="pb-6">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 mx-auto">
-                <h2 class="text-center text-md-left">Used by Thousands of Companies</h2>
-                <p class="lead text-muted">Prism.js is used on several websites, small and large.</p>
+                <h2 class="text-center text-md-left">Check out my other platforms</h2>
                 <div class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons">
-                    <img src="https://logo.clearbit.com/google.com?size=60" alt="Google"/>
-                    <img src="https://logo.clearbit.com/twitter.com?size=60" alt="Twitter"/>
-                    <img src="https://logo.clearbit.com/vuejs.org?size=60" alt="Veu.js"/>
-                    <img src="https://logo.clearbit.com/stripe.com?size=60" alt="Stripe"/>
+                    <a href="https://twitter.com/nathan_ryancz" class="icon brands fa-twitter"><span>Twitter</span></a>
+                    <a href="https://www.linkedin.com/in/nathan-ryan-5a06b8193/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+                    <a href="https://github.com/nsryan2" class="icon brands fa-github"><span>Github</span></a>
+                    <a href="https://www.instagram.com/nathan_ry4/" class="icon brands fa-instagram"><span>Instagram</span></a>
+                    <a href="https://orcid.org/0000-0002-5551-2818" class="icon brands fa-orcid"><span>Orcid</span></a>
                 </div>
             </div>
         </div>
     </div>
+        
 </section>
 
 <!--footer-->
@@ -174,9 +57,11 @@ export class FeatherIconsPipe implements PipeTransform {
         <div class="row">
             <div class="col-12 text-center">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="https://prismjs.com/test.html">Test Drive</a></li>
-                    <li class="list-inline-item"><a href="https://prismjs.com/extending.html">API Docs</a></li>
-                    <li class="list-inline-item"><a href="https://github.com/LeaVerou/prism/">Fork Prism.js on GitHub</a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/nathan_ryancz" class="icon brands fa-twitter"><span>Twitter</span></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/nathan-ryan-5a06b8193/" class="icon brands fa-linkedin"><span>LinkedIn</span></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/nsryan2" class="icon brands fa-github"><span>Github</span></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/nathan_ry4/" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+                    <li class="list-inline-item"><a href="https://orcid.org/0000-0002-5551-2818" class="icon brands fa-orcid"><span>Orcid</span></a></li>
                 </ul>
             </div>
         </div>
